@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  min-width: 625px;
 }
 
 .profile-image {
@@ -37,6 +41,10 @@ button {
   padding: 8px 24px;
 }
 
+.notifications {
+  height: 32px;
+}
+
 a {
   /* this removes the line under our links */
   text-decoration: none;
@@ -45,4 +53,23 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+
+.right-nav > * {
+  margin: 6px 
 }
